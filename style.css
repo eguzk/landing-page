@@ -1,0 +1,93 @@
+* {border: 1px solid red;}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/* Section0 header and text+image */
+
+.section0 {
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 18px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links {
+    display: flex;
+    gap: 20px;
+}
+h4, .secondary-text {
+    font-size: 18px;
+    color: #a6aab4;
+    font-weight: 400;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.inside-section0 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+}
+.left-inside-section0 {
+    flex-wrap: wrap;
+    max-width: 450px; 
+}
+#street-golf {
+    max-width: 400px;  
+}
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #f9faf8;
+    border-radius: 6px;
+    padding: 6px;
+}
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+}
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0;
+    padding: 0 10px;
+}
+.cards-img {
+    max-width: 300px;
+    border: 2px solid rgb(181, 181, 255);
+    border-radius: 4px;
+}
+.subtext {
+    text-align: center;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
